@@ -63,3 +63,8 @@ public class SecureSettingSwitchPreference extends SwitchPreference {
         return Settings.Secure.getString(getContext().getContentResolver(), getKey()) != null;
     }
 }
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> e105f6d... Privacy guard: option to disable notification (2/2)
