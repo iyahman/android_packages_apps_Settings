@@ -13,19 +13,17 @@
 -->
 <resources>
     <!-- Custom device info screen -->
-    <string name="custom_device_info">Common</string>
-    <string name="custom_device_info_summary">Model, status etc.</string>
+    <string name="custom_device_info">Generali</string>
+    <string name="custom_device_info_summary">Modello, stato ecc.</string>
     <!-- Custom ROM info screen -->
     <string name="custom_rom_info">ROM</string>
-    <string name="custom_rom_info_summary">Android version, kernel version, legal info, name etc.</string>
+    <string name="custom_rom_info_summary">Info kernel, info legali, nome, versione di Android ecc.</string>
     <!-- Custom security info screen -->
-    <string name="custom_security_info">Security</string>
-    <string name="custom_security_info_summary">SELinux status, security patch level</string>
+    <string name="custom_security_info">Sicurezza</string>
+    <string name="custom_security_info_summary">Livello patch di sicurezza, stato di SELinux</string>
     <!-- More things screen -->
-    <string name="more_things">More</string>
-    <string name="more_things_summary">Issue report, stats etc.</string>
+    <string name="more_things">Altro</string>
+    <string name="more_things_summary">Segnalazione problemi, statistiche ecc.</string>
     <string name="jdc_issue_tracker">JDCTeam Issue Tracker</string>
-    <string name="jdc_issue_tracker_summary">Press here to go to our issue tracker</string>
-    <!-- Team members under ROM logo -->
-    <string name="jdcteam">alucard_24, angelcalibur, AntaresOne, -+BB+-, FernBch, franzyroy, hawkerpaul, javelinanddart, Jimsilver73, josegalre, MattBooth, side, smeroni68, smstiv</string>
+    <string name="jdc_issue_tracker_summary">Premi qui per collegarti al nostro issue tracker</string>
 </resources>

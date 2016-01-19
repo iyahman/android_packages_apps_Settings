@@ -58,7 +58,7 @@ public class ReportingService extends IntentService {
 
         PersistableBundle cyanogenBundle = new PersistableBundle();
         cyanogenBundle.putBoolean(StatsUploadJobService.KEY_OPT_OUT, optOut);
-        cyanogenBundle.putString(StatsUploadJobService.KEY_DEVICE_NAME, deviceName);
+        cyanogenBundle.putString(StatsUploadJobService.KEY_DEVICE_MODEL, deviceName);
         cyanogenBundle.putString(StatsUploadJobService.KEY_UNIQUE_ID, deviceId);
         cyanogenBundle.putString(StatsUploadJobService.KEY_VERSION, deviceVersion);
         cyanogenBundle.putString(StatsUploadJobService.KEY_COUNTRY, deviceCountry);
