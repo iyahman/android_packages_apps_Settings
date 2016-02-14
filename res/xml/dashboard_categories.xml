@@ -310,6 +310,26 @@
                 android:icon="@drawable/ic_settings_print"
                 />
 
+
+        <!-- STweaks -->
+        <dashboard-tile
+                android:id="@+id/stweaks_settings"
+                android:title="STweaks"
+                android:icon="@drawable/ic_settings_stweaks">
+            <intent
+                android:action="android.intent.action.MAIN"
+                android:targetPackage="com.gokhanmoral.stweaks.app"
+                android:targetClass="com.gokhanmoral.stweaks.app.MainActivity"/>
+        </dashboard-tile>
+		
+	<!--Optimized CM Settings-->
+	<dashboard-tile
+                android:id="@+id/optcm_settings"
+                android:title="@string/optcm_settings"
+                android:fragment="com.android.settings.OptCMSettings"
+                android:icon="@drawable/ic_optcm_settings"
+                />
+		
         <!-- Development -->
         <dashboard-tile
                 android:id="@+id/development_settings"
@@ -317,7 +337,7 @@
                 android:fragment="com.android.settings.DevelopmentSettings"
                 android:icon="@drawable/ic_settings_development"
                 />
-
+		
         <!-- About Device -->
         <dashboard-tile
                 android:id="@+id/about_settings"

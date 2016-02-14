@@ -43,4 +43,7 @@
 
     <!-- Team members under ROM logo -->
     <string name="jdcteam">alucard_24, angelcalibur, AntaresOne, -+BB+-, FernBch, franzyroy, hawkerpaul, javelinanddart, Jimsilver73, josegalre, MattBooth, side, smeroni68, smstiv</string>
+    <!--Optimized CM Settings-->
+    <string name="ui_preferences">UI Preferences</string>
+    <string name="optcm_settings">Optimized CM Settings</string>
 </resources>
