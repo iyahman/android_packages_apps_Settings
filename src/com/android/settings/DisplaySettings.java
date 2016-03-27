@@ -253,7 +253,16 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         mDozePreference = (SwitchPreference) findPreference(KEY_DOZE);
         if (mDozePreference != null && Utils.isDozeAvailable(activity)) {
-            mDozePreference.setOnPreferenceChangeListener(this);
+        boolean supported = false;
+
+        try {
+            supported = (getPackageManager().getPackageInfo("com.cyanogenmod.settings.device", 0).versionCode > 0);
+            } catch (PackageManager.NameNotFoundException e) {
+            } if (!supported) {
+                mDozePreference.setOnPreferenceChangeListener(this);
+                } else {
+                displayPrefs.removePreference(mDozePreference);
+            }
         } else {
             if (displayPrefs != null && mDozePreference != null) {
                 displayPrefs.removePreference(mDozePreference);
