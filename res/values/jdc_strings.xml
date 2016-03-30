@@ -23,7 +23,10 @@
     <string name="custom_security_info_summary">SELinux status, security patch level</string>
     <!-- More things screen -->
     <string name="more_things">More</string>
-    <string name="more_things_summary">Issue report, ROM thread etc.</string>
+    <string name="more_things_summary">Issue report, stats etc.</string>
+-    <string name="jdc_issue_tracker">JDCTeam Issue Tracker</string>
+-    <string name="jdc_issue_tracker_summary">Press here to go to our issue tracker</string>
+
     <string name="rom_thread">ROM thread</string>
     <string name="rom_thread_summary">Discuss about this ROM on XDA-Developers</string>
     <!-- QS -->

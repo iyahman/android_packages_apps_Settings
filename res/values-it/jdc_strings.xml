@@ -23,8 +23,10 @@
     <string name="custom_security_info_summary">Livello patch di sicurezza, stato di SELinux</string>
     <!-- More things screen -->
     <string name="more_things">Altro</string>
-
-    <string name="more_things_summary">Segnalazione problemi, thread della ROM ecc.</string>
+    <string name="more_things_summary">Segnalazione problemi, statistiche ecc.</string>
+    <string name="jdc_issue_tracker">JDCTeam Issue Tracker</string>
+    <string name="jdc_issue_tracker_summary">Premi qui per collegarti al nostro issue tracker</string>
+    
     <string name="rom_thread">Thread</string>
     <string name="rom_thread_summary">Discuti di questa ROM su XDA-Developers</string>
     <!-- QS -->
