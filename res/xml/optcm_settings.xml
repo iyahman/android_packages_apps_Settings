@@ -17,13 +17,27 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/optcm_settings">
 	
+    <!-- Optimized CM Apps -->
     <PreferenceCategory
-        android:title="@string/ui_preferences">
+        android:title="@string/optcm_apps">
 	<PreferenceScreen
-	    android:key="clear_all_settings"
-	    android:title="@string/clear_all_settings_title"
-	    android:fragment="com.android.settings.mokee.RecentsSettings" />
-    </PreferenceCategory>
+	    android:key="STweaks"
+	    android:title="STweaks">
+		<intent
+			android:action="android.intent.action.MAIN"
+			android:targetPackage="com.gokhanmoral.stweaks.app"
+			android:targetClass="com.gokhanmoral.stweaks.app.MainActivity"/>
+	</PreferenceScreen>
 	
+	<PreferenceScreen
+	    android:key="Toolbox"
+	    android:title="Toolbox">
+		<intent
+			android:action="android.intent.action.MAIN"
+			android:targetPackage="com.jdcteam.toolbox"
+			android:targetClass="com.jdcteam.toolbox.ToolboxMain"/>
+	</PreferenceScreen>
+	
+     </PreferenceCategory>
 	
 </PreferenceScreen>
