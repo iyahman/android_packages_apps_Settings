@@ -301,6 +301,8 @@ public class StatusBarSettings extends SettingsPreferenceFragment
                     ? R.string.status_bar_quick_qs_pulldown_summary_left
                     : R.string.status_bar_quick_qs_pulldown_summary_right);
             mQuickPulldown.setSummary(res.getString(R.string.status_bar_quick_qs_pulldown_summary, direction));
+        }       
+
         }
 
     private void loadResources() {
